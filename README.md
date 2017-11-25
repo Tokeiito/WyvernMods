@@ -1,5 +1,6 @@
 # WyvernMods
-Creator: Sindusk 
+Creator: Sindusk
+
 Wyvern Mods is the source code for basically all of the modifications that currently run on Wyvern Reborn. I've tried to make a full extensive list of what it encompasses in the first post of the server thread, but it doesn't really cover all of it. This is not a single mod by itself. This is source code for a gigantic collection of mods. Some highlights: 
   
 * Titan System - Raid bosses that use special AoE abilities and summon minions. 
