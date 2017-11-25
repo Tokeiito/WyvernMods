@@ -11,7 +11,7 @@ Wyvern Mods is the source code for basically all of the modifications that curre
 * Treasure Boxes - A custom item which rewards random treasures. Simple by design, but ultra effective in practice. Great for rewards after unique slayings and other events. 
 * So much more... 
   
-## The goal of posting this 
+## The Goal of Posting This 
   
 My goal with releasing this source code is to give a "foundation" of sorts for other modders, allowing them to learn from what I've created so far, as it's pretty easy to see the cause -> effect in the modifications here. Beyond that, I'm hoping some of it is found useful by other server owners in creating their own custom content. You can piggyback your own ideas onto the systems I've created, making your own raid bosses with the Titan system and your own randomly placed "treasure hunting" events with the Supply Depots (perhaps even a public version of rifts!). Make your own custom creatures using mine as a template. Create your own items with fun interactions with my Chaos Crystals and Enchanters Crystals as a starting point. I think with a little bit of tweaking, other modders and server owners should be able to create some extremely interesting new content with what's provided here. 
   
@@ -25,6 +25,6 @@ I'd like to request anyone who is up for the challenge to split this out of Wyve
   
 Finally, there is a gigantic class called MiscChanges in WyvernMods. This is a collection of basically a year of QoL tweaks. I was planning to merge this into ServerTweaks to make it more enticing, but again, haven't had the time to do so. If anyone would like to split some of MiscChanges into a configurable mod for other server owners, it would probably go much appreciated. 
   
-## Usage on other servers 
+## Usage on Other Servers 
   
 So by now, if you're a server owner, you're probably asking yourself "can I use this on my server, and if so, how much?" - If you're asking about consent from me, I give it fully. You're welcome to use absolutely anything provided here on your server and modify it in whatever way you like. Unconditionally. I don't need to be credited for anything or have any other conditions for use. Just take whatever looks interesting and go crazy. I'm curious to see what you can do with it. 
