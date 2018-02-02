@@ -42,7 +42,6 @@ import javassist.NotFoundException;
 import javassist.expr.ExprEditor;
 import javassist.expr.MethodCall;
 import mod.sin.creatures.titans.*;
-import mod.sin.wyvern.AntiCheat;
 import mod.sin.wyvern.Mastercraft;
 import mod.sin.wyvern.Soulstealing;
 import mod.sin.wyvernmods.arena.ArenaEscapeAction;
@@ -54,7 +53,6 @@ import mod.sin.wyvernmods.bestiary.MethodsBestiary;
 public class WyvernMods
 implements WurmServerMod, Configurable, PreInitable, Initable, ItemTemplatesCreatedListener, ServerStartedListener {
 	private static Logger logger = Logger.getLogger(WyvernMods.class.getName());
-	public static boolean espCounter = false;
 	public static boolean enableDepots = false;
 	
     boolean bDebug = false;
@@ -68,10 +66,7 @@ implements WurmServerMod, Configurable, PreInitable, Initable, ItemTemplatesCrea
         //String title = new String(tempStringArr, "UTF-8");
         if(player.mayMute() && message.startsWith("!")){
     		logger.info("Player "+player.getName()+" used custom WyvernMods command: "+message);
-    		if(message.startsWith("!toggleESP") && player.getPower() >= 5){
-                espCounter = !espCounter;
-                player.getCommunicator().sendSafeServerMessage("ESP counter for this server is now = "+espCounter);
-    		}else if(message.startsWith("!enableDepots") && player.getPower() >= 5){
+    		if(message.startsWith("!enableDepots") && player.getPower() >= 5){
                 enableDepots = !enableDepots;
                 player.getCommunicator().sendSafeServerMessage("Arena depots for this server is now = "+enableDepots);
     		}else{
@@ -122,7 +117,6 @@ implements WurmServerMod, Configurable, PreInitable, Initable, ItemTemplatesCrea
         	TreasureChests.preInit();
             MiscChanges.preInit();
             Arena.preInit();
-            AntiCheat.preInit();
             Mastercraft.addNewTitles();
             SupplyDepots.preInit();
             

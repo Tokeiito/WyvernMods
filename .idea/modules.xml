@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/WyvernModCollection.iml" filepath="$PROJECT_DIR$/WyvernModCollection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/anticheat/anticheat.iml" filepath="$PROJECT_DIR$/anticheat/anticheat.iml" />
     </modules>
   </component>
 </project>
