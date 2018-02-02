@@ -1,0 +1,16 @@
+# general
+/target
+
+# InteliJ
+/.idea
+/*.iml
+/*.eml
+/*.log
+
+# Eclipse
+/.metadata
+/local.properties
+/.settings
+/.loadpath
+/.recommenders
+/.factorypath
