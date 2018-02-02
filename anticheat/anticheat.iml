@@ -7,11 +7,14 @@
       <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/resources" type="java-resource" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="lib" level="project" />
+    <orderEntry type="library" name="Maven: org.javassist:javassist:3.22.0-GA" level="project" />
+    <orderEntry type="library" name="Maven: com.wurmonline:common:1.5.2.1" level="project" />
+    <orderEntry type="library" name="Maven: com.wurmonline:server:1.5.2.1" level="project" />
+    <orderEntry type="library" name="Maven: org.gotti.wurmunlimited:modloader:0.33" level="project" />
   </component>
 </module>
